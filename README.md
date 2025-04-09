@@ -34,7 +34,7 @@ Este proyecto es un CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar una 
 1.  Clona el repositorio:
 
     ```bash
-    git clone <URL_del_repositorio>
+    git clone https://github.com/luiyi45/CRUD_biblioteca.git
     cd <nombre_del_proyecto>
     ```
 
