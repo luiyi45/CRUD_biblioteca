@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 offset-md-3">
+      <div class="card card-body bg-background-lila p-4 text-black rounded-3">
+        <h2 class="text-center mb-3">Editar un libro</h2>
+        <form action="/edit/{{libro._id}}" method="POST">
+
+          <div class="mb-3">
+            <input
+              type="text"
+              name="title"
+              placeholder="Titulo"
+              value="{{libro.title}}"
+              class="form-control rounded-3 bg-ple text-black"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              name="author"
+              placeholder="Autor"
+              value="{{libro.author}}"
+              class="form-control rounded-3 bg-ple text-black"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="number"
+              name="date"
+              placeholder="Año"
+              value="{{libro.date}}"
+              class="form-control rounded-3 bg-ple text-black"
+            />
+          </div>
+
+          <button class="btn btn-purple">Actualizar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

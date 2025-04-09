@@ -1,0 +1,32 @@
+{{#if libros}}
+  <table class="table table-bordered table-striped table-hover table-primary">
+    <thead>
+      <tr>
+        <th>N.</th>
+        <th>Libro</th>
+        <th>Autor</th>
+        <th>Año de publicación</th>
+        <th>Operación</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each libros}}
+        <tr>
+          <td>{{@index}}</td>
+          <td>{{title}}</td>
+          <td>{{author}}</td>
+          <td>{{date}}</td>
+          <td>
+            <a href="/edit/{{_id}}" class="btn btn-outline-primary">Editar</a>
+            <a href="/delete/{{_id}}" class="btn btn-outline-danger">Eliminar</a>
+          </td>
+        </tr>
+      {{/each}}
+
+    </tbody>
+  </table>
+{{else}}
+  <div class="text-center">
+    <h2>Aún no hay registros agregados</h2>
+  </div>
+{{/if}}
