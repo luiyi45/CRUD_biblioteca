@@ -80,7 +80,8 @@ Puedes modificar el puerto en el archivo de configuración si es necesario.
 
 ## 🧩 Diagrama de Arquitectura
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/b89a0457-bcce-4bc0-9af6-3317723ad1b7)
+
 
 ## 📁 Estructura del proyecto
 
