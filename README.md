@@ -78,7 +78,11 @@ bash
 5. Abre la aplicación en tu navegador de preferencia `http://localhost:3000`
 Puedes modificar el puerto en el archivo de configuración si es necesario.
 
-📁 Estructura del proyecto
+## 🧩 Diagrama de Arquitectura
+
+![alt text](image.png)
+
+## 📁 Estructura del proyecto
 
  ```
     .
@@ -113,14 +117,14 @@ Puedes modificar el puerto en el archivo de configuración si es necesario.
     └── README.md
  ```
 
-📌 Notas adicionales
+## 📌 Notas adicionales
 Este proyecto sigue el patrón MVC (Modelo-Vista-Controlador).
 
 Puedes extender la funcionalidad para agregar categorías, usuarios, préstamos, etc.
 
 Recomendado usar herramientas como Postman para probar las rutas del backend.
 
-🧑‍💻 Autor
+## 🧑‍💻 Autor
 Desarrollado por Luiyi❤️.
 
 
