@@ -56,11 +56,11 @@ Aplicación web para gestionar libros en una biblioteca mediante operaciones CRU
 3. Configura las variables de entorno
 Crea un archivo .env en la raíz del proyecto y agrega tu cadena de conexión de MongoDB Atlas:
 
-```
-        MONGODB_URI=mongodb+srv://<usuario>:<contraseña>@<cluster>.mongodb.net/<nombre_de_la_base_de_datos>?retryWrites=true&w=majority
-        ```
+    ```
+    MONGODB_URI=mongodb+srv://<usuario>:<contraseña>@<cluster>.mongodb.net/<nombre_de_la_base_de_datos>?retryWrites=true&w=majority
+    ```
 
-        🔐 Asegúrate de reemplazar `<usuario>`, `<contraseña>`, `<cluster>` y `<nombre_de_la_base_de_datos>` con tus credenciales.
+🔐 Asegúrate de reemplazar `<usuario>`, `<contraseña>`, `<cluster>` y `<nombre_de_la_base_de_datos>` con tus credenciales.
 
 4. Ejecuta la aplicación
 bash
@@ -80,36 +80,38 @@ Puedes modificar el puerto en el archivo de configuración si es necesario.
 
 📁 Estructura del proyecto
 
-.
-├── node_modules/
-├── src/
-│   ├── controllers/
-│   │   └── libros.controller.js
-│   ├── models/
-│   │   └── Libro.js
-│   ├── public/
-│   │   └── css/
-│   │       └── main.css
-│   ├── routes/
-│   │   └── index.routes.js
-│   ├── views/
-│   │   ├── layouts/
-│   │   │   └── main.hbs
-│   │   ├── partials/
-│   │   │   ├── libros/
-│   │   │   │   ├── libroForm.hbs
-│   │   │   │   ├── libroTable.hbs
-│   │   │   ├── navbar.hbs
-│   │   │   ├── edit.hbs
-│   │   │   └── index.hbs
-│   ├── app.js
-│   ├── database.js
-│   └── index.js
-├── .babelrc (opcional)
-├── .gitignore
-├── package.json
-├── package-lock.json
-└── README.md
+ ```
+    .
+    ├── node_modules/
+    ├── src/
+    │   ├── controllers/
+    │   │   └── libros.controller.js
+    │   ├── models/
+    │   │   └── Libro.js
+    │   ├── public/
+    │   │   └── css/
+    │   │       └── main.css
+    │   ├── routes/
+    │   │   └── index.routes.js
+    │   ├── views/
+    │   │   ├── layouts/
+    │   │   │   └── main.hbs
+    │   │   ├── partials/
+    │   │   │   ├── libros/
+    │   │   │   │   ├── libroForm.hbs
+    │   │   │   │   ├── libroTable.hbs
+    │   │   │   ├── navbar.hbs
+    │   │   │   ├── edit.hbs
+    │   │   │   └── index.hbs
+    │   ├── app.js
+    │   ├── database.js
+    │   └── index.js
+    ├── .babelrc (opcional)
+    ├── .gitignore
+    ├── package.json
+    ├── package-lock.json
+    └── README.md
+ ```
 
 📌 Notas adicionales
 Este proyecto sigue el patrón MVC (Modelo-Vista-Controlador).
