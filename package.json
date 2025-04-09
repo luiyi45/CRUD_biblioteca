@@ -1,0 +1,26 @@
+{
+  "name": "crud_biblioteca",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1",
+    "mongoose": "^8.13.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.14.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.9",
+    "nodemon": "^3.1.9"
+  }
+}
