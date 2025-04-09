@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(219, 192, 238);
+}
+
+.bg-background-lila {
+    background: rgb(191, 150, 221);
+}
+
+.btn-purple {
+    background-color: rgb(170, 105, 231);
+}
+
+.bg-navbar-purple {
+    background-color: rgb(191, 150, 221);
+}
+
+.bg-ple {
+    background-color: rgb(204, 170, 235);
+}
+
+.text-input {
+    color: rgb(170, 105, 231);
+}
+
